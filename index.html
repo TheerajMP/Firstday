@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naveen</title>
+</head>
+<body>
+    <!--<script type="text/javascript">
+    var myName ="hello";
+    console.log(myName);
+    alert("welcome!!");
+    flag=confirm("Do you want to continue")
+    if(flag )
+    {
+        prompt("enter your name","default");
+        prompt("enter your place","place");
+    }
+    </script>-->
+    <script type="text/javascript">
+        var str1 = "javascript";
+        var str2 = "    hey there!! Welcome to javascript learning";
+        var str3 = 15;
+        var str4 = true;
+        console.log("hiii");
+        document.write(`${str1} welcome to ${str1}`);
+        document.write("<br>");
+        document.write(str1+" "+str2+"<br>");
+
+        document.write(str1.charAt(0)+"<br>");
+        document.write(str1.charCodeAt(0)+"<br>");
+        document.write(str2.concat("",str1)+"<br>");
+        document.write(str2.indexOf('to')+"<br>");
+        document.write(str2.lastIndexOf('to')+"<br>");
+        document.write(str2.toUpperCase()+"<br>");
+        document.write(str2.toLowerCase()+"<br>");
+        document.write(str2.slice(5,10)+"<br>");
+        document.write(str2.slice(-15,-10)+"<br>");
+        document.write(str2.substring(5,10)+"<br>");
+        document.write(str2.substr(0,5)+"<br>");
+        document.write(str2.search('sandy')+"<br>");
+        document.write(str2.match('sandy')+"<br>");
+        document.write(str2.split(' ')+"<br>");
+        document.write(str2.replace('javascript','wed development')+"<br>");
+        document.write(str3.toString(2)+"<br>");
+        document.write(str3.toString(8)+"<br>");
+        
+    //string property
+    document.write(str1.length+"<br>");
+    document.write(str3.constructor+"<br>");
+    document.write(str4.constructor+"<br>");  
+    function Student(name,age)
+    {
+        this.Firstname = name;
+        this.myAge = age;
+    }  
+    Student.prototype.department = "IT";
+    const details = new Student("sandy",18);
+    document.write("Department :"+details.department);
+    </script>
+</body>
+</html>
